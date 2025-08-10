@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-df = pd.read_csv("data/heart_disease_data.csv")
+df = pd.read_csv("heart_disease_data.csv")
 
 df['target'].value_counts()
 
